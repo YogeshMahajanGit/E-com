@@ -1,3 +1,9 @@
+import Hero from "../components/Hero";
+
 export default function Home() {
-  return <div className="bg-red-300">Home Tou</div>;
+  return (
+    <div className="">
+      <Hero />
+    </div>
+  );
 }
