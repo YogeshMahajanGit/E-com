@@ -7,11 +7,13 @@ export default function Navbar() {
   //   console.log(visible);
   return (
     <div className="flex items-center justify-between py-y font-medium">
-      <img
-        className="w-36"
-        src={assets.logo}
-        alt="logo"
-      />
+      <Link to="/">
+        <img
+          className="w-36"
+          src={assets.logo}
+          alt="logo"
+        />
+      </Link>
 
       <ul className="hidden sm:flex gap-5 tetx-sm text-sm text-gray-700">
         <NavLink
