@@ -18,7 +18,7 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <p className="text-xl font-medium mb-5">COMPANY</p>
+          <p className="text-xl font-medium mt-5">COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>Home</li>
             <li>About us</li>
@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+          <p className="text-xl font-medium mt-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+1-213-333-999</li>
             <li>contact@comany.com</li>
